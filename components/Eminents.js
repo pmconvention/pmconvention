@@ -9,7 +9,7 @@ const quicksand = Quicksand({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const weddingImages = ["/Marriage1.jpeg", "/Marriage2.jpeg", "/ideal.jpeg"];
+const weddingImages = ["/Marriage1.jpeg", "/Marriage2.jpeg", "/Ideal.jpeg"];
 const birthdayImages = ["/Birthday1.jpeg", "/Birthday2.jpeg", "/Birthday3.jpg"];
 
 const imageVariants = {
