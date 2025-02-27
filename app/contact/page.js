@@ -21,7 +21,7 @@ const About = () => {
     
 
       {/* Contact Us Section */}
-      <motion.div className="py-10 px-5 md:px-20 bg-gray-100 rounded-lg shadow-md my-10">
+      <motion.div className="py-10 px-5 md:px-20   my-10">
         <h2 className="text-3xl font-semibold text-center">Contact Us</h2>
         <ContactForm />
       </motion.div>
@@ -77,7 +77,7 @@ const ContactForm = () => {
 
 
   return (
-    <form ref={form} className="space-y-5 max-w-lg mx-auto" onSubmit={sendEmail}>
+    <form ref={form} className="space-y-5 max-w-lg mx-auto pt-10" onSubmit={sendEmail}>
       <input
         type="text"
         name="name"
