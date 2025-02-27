@@ -43,7 +43,7 @@ const About = () => {
           variants={{ hidden: { opacity: 0, x: -50 }, visible: { opacity: 1, x: 0 } }}
         >
           <Image
-            src="/Hall1.jpg"
+            src="/Hall1.JPG"
             alt="PM Convention Hall"
             width={600}
             height={400}
