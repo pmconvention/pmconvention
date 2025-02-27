@@ -44,7 +44,6 @@ const Gallery = () => {
     }
   };
 
-  {/*testing*/}
   return (
     <div className="p-5 min-h-screen">
       <h2 className={`flex text-3xl font-bold mb-4 pt-20 justify-center py-10 ${quicksand.className}`}>Gallery</h2>
