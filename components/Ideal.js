@@ -20,7 +20,7 @@ const cardVariants = {
 
 const facilities = [
   { icon: <AirVent size={40} />, label: "Ac Hall" },
-  { icon: <Armchair size={40} />, label: "500+ Seating Capacity" },
+  { icon: <Armchair size={40} />, label: "800+ Seating Capacity" },
   { icon: <Droplets size={40} />, label: "Water facility" },
   { icon: <Car size={40} />, label: "Parking facility" },
 ];

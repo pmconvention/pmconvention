@@ -27,7 +27,7 @@ const Footer = () => {
             <div className={`${quicksand.className} font-bold flex justify-center lg:justify-start md:justify-start`}>ADDRESS :</div>
             <div className='flex justify-center'>
                 <ul>
-                    <li>PM Gardens & Convention Center </li>
+                    <li>PM Gardens & Convention Hall </li>
                     <li>Seetharampur, Karimnagar</li>
                     <li>Telangana, 505001</li>
                 </ul>
@@ -39,6 +39,7 @@ const Footer = () => {
             <ul>
                 <li>+91 9490188701</li>
                 <li>+91 9492838341</li>
+                <li>+91 7674059286</li>
             </ul>
             </div>
         </div>

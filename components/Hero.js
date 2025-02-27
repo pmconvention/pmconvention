@@ -33,7 +33,7 @@ const Hero = () => {
           className="w-full h-full"
         />
         {/* Background color overlay on the image */}
-        <div className="absolute inset-0 bg-blue-900 opacity-50"></div>
+        <div className="absolute inset-0 bg-blue-900 opacity-30"></div>
       </div>
 
       {/* Hero Text Content */}
