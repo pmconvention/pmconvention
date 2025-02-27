@@ -33,7 +33,7 @@ export default function Navbar() {
           height={300}
           className="w-16 h-20"
         />
-      </div>
+      </div> 
 
       {/* Desktop Navigation */}
       <ul className={`lg:flex md:hidden hidden space-x-10 font-bold lg:text-[16px]`}>
