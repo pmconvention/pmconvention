@@ -49,6 +49,7 @@ const Ideal = () => {
           </motion.div>
         ))}
       </div>
+      
     </div>
   );
 };
