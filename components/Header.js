@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X} from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Quicksand } from 'next/font/google';
 
 const quicksand = Quicksand({
@@ -37,13 +37,18 @@ export default function Navbar() {
 
       {/* Desktop Navigation */}
       <ul className={`lg:flex md:hidden hidden space-x-10 font-bold lg:text-[16px]`}>
-        {['Home', 'Gallery', 'About', 'Contact'].map((item, index) => (
+        {[
+          { name: 'Home', path: '/' },
+          { name: 'Gallery', path: '/gallery' },
+          { name: 'About', path: '/about' },
+          { name: 'Contact', path: '/contact' },
+        ].map((item, index) => (
           <li
             key={index}
             className={`group relative hover:translate-x-[3px] hover:-translate-y-[3px] duration-500 ${quicksand.className} font-bold`}
           >
-            <Link href="/">
-              <span className="relative z-10">{item}</span>
+            <Link href={item.path}>
+              <span className="relative z-10">{item.name}</span>
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-500 group-hover:w-full mt-1"></span>
             </Link>
           </li>
@@ -61,10 +66,15 @@ export default function Navbar() {
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white text-black shadow-lg z-50 rounded-b-lg transition-transform duration-300">
           <ul className="flex flex-col space-y-5 p-5 font-bold text-center">
-            {['Home', 'Gallery', 'About', 'Contact'].map((item, index) => (
-              <li key={index} className={`group relative hover:translate-x-[3px] hover:-translate-y-[3px] duration-500  ${quicksand.className}`}>
-                <Link href="/" onClick={() => setIsOpen(false)}>
-                  <span className="relative z-10">{item}</span>
+            {[
+              { name: 'Home', path: '/' },
+              { name: 'Gallery', path: '/gallery' },
+              { name: 'About', path: '/about' },
+              { name: 'Contact', path: '/contact' },
+            ].map((item, index) => (
+              <li key={index} className={`group relative hover:translate-x-[3px] hover:-translate-y-[3px] duration-500 ${quicksand.className}`}>
+                <Link href={item.path} onClick={() => setIsOpen(false)}>
+                  <span className="relative z-10">{item.name}</span>
                   <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-500 group-hover:w-full mt-1"></span>
                 </Link>
               </li>

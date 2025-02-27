@@ -51,7 +51,7 @@ const Hero = () => {
           whileTap={{ scale: 0.95 }}
           className="bg-black border border-white p-2 shadow-md rounded-md transition-transform duration-300 font-bold"
         >
-          <Link href="/">Know More</Link>
+          <Link href="/contact">Book Now</Link>
         </motion.div>
       </motion.div>
 
