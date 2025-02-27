@@ -12,8 +12,8 @@ const REGION = "ap-south-1";
 const s3 = new S3Client({
   region: "ap-south-1",
   credentials: {
-    accessKeyId: "AKIASVQKH7IW7UKYSUPX",
-    secretAccessKey: "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",
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
   },
 });
 
