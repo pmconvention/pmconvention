@@ -17,7 +17,6 @@ const s3 = new S3Client({
   },
 });
 
-// Multer configuration for handling file uploads
 const upload = multer({ 
   dest: "/tmp",
   limits: { fileSize: 50 * 1024 * 1024 } // 50MB limit (adjust as needed)
