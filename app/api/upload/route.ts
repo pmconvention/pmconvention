@@ -19,7 +19,7 @@ const s3 = new S3Client({
 
 const upload = multer({ 
   dest: "/tmp",
-  limits: { fileSize: 50 * 1024 * 1024 } // 50MB limit (adjust as needed)
+  limits: { fileSize: 50 * 1024 * 1024 } 
 });
 const uploadMiddleware = promisify(upload.single("file"));
 
