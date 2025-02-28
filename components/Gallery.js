@@ -76,7 +76,7 @@ const Gallery = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
-        <Link href="/gallery" className="bg-black text-white p-3 rounded-md shadow-md">
+        <Link href="/gallery" className="bg-green-600 text-white p-3 rounded-md shadow-md">
           More
         </Link>
       </motion.div>
