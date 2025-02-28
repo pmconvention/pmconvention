@@ -44,7 +44,7 @@ const Hero = () => {
         viewport={{ once: true }}
         className={`absolute inset-0 flex flex-col items-center justify-center z-10 text-white text-center space-y-4 ${quicksand.className}`}
       >
-        <h1 className="text-5xl font-bold">Welcome to PM Convention</h1>
+        <h1 className="lg:text-5xl text-3xl font-bold">Welcome to PM Gardens & Convention Hall</h1>
         <p className="text-xl font-bold">Elegant Spaces for Memorable Events</p>
         <motion.div
           whileHover={{ scale: 1.05, y: -2 }}
