@@ -23,7 +23,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <div className="flex justify-between lg:px-20 px-10 items-center w-screen bg-white z-50 text-black fixed">
+    <div className="flex justify-between lg:px-20 px-10 items-center w-screen bg-white z-40 mt-10 text-black fixed">
       {/* Logo Section */}
       <div className="flex items-center">
         <Image

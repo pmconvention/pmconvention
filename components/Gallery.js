@@ -12,9 +12,9 @@ const quicksand = Quicksand({
 });
 
 const images = [
-  { src: "/Marriage1.jpeg", alt: "Marriage Image 1" },
+  { src: "/Hero2.jpeg", alt: "Marriage Image 1" },
   { src: "/Birthday1.jpeg", alt: "Birthday Image 1" },
-  { src: "/Marriage2.jpeg", alt: "Marriage Image 2" },
+  { src: "/Hero3.jpeg", alt: "Marriage Image 2" },
   { src: "/Birthday2.jpeg", alt: "Birthday Image 2" },
   { src: "/Ideal.jpeg", alt: "Ideal Image" },
   { src: "/Birthday3.jpg", alt: "Birthday Image 3" },

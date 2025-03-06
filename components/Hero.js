@@ -21,7 +21,7 @@ const Hero = () => {
       className="relative w-screen lg:h-[90vh] md:h-[70vh] h-[60vh] top-[80px] pb-20"
     >
       {/* Top Decorative Image */}
-      <div className="absolute top-0 left-0 w-full h-10 bg-[url('/top.png')] z-40 bg-repeat-x"></div>
+      <div className="absolute top-10 left-0 w-full h-10 bg-[url('/top.png')] z-30 bg-repeat-x"></div>
 
       {/* Hero Image with Background Overlay */}
       <div className="relative w-full h-full">
