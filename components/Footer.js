@@ -74,8 +74,9 @@ const Footer = () => {
         </div>
         <div className="flex justify-center">
           <ul>
-            <li>+91 9490188701</li>
-            <li>+91 9492838341</li>
+          <li>+91 9490188701</li>
+            <li>+91 8919213656</li>
+            <li>+91 9676834711</li>
             <li>+91 8886054515</li>
             <li>+91 7674059286</li>
             
